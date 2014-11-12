@@ -16,7 +16,7 @@
         android:layout_alignRight="@+id/textView2"
         android:layout_centerVertical="true"
         android:gravity="center"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/button1"
