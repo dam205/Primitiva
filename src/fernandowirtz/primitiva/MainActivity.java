@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
 
 	public void onClickButton(View view) {
 		Primitiva pri = new Primitiva();
-		texto.setText(pri.calcular());
+		texto.setText(pri.calculo());
 		SharedPreferences preferencias = getSharedPreferences("guardado",
 				Context.MODE_PRIVATE);
 		Editor editor = preferencias.edit();

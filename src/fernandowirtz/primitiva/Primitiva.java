@@ -8,7 +8,11 @@ public class Primitiva {
 	private String resultado = "";
 	boolean repetido;
 
-	public String calcular() {
+	public Primitiva() {
+		calcular();
+	}
+
+	public void calcular() {
 		Random aleatorio = new Random();
 		for (int f = 0; f < numeros.length; f++) {
 			repetido = false;
@@ -23,7 +27,10 @@ public class Primitiva {
 				resultado = resultado + (String.valueOf(numeros[f]) + " ");
 			}
 		}
-		return resultado;
+
 	}
 
+	public String calculo() {
+		return resultado;
+	}
 }
